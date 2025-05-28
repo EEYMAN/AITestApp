@@ -1,13 +1,13 @@
 import XCTest
 import CoreData
-@testable import AiTest // Замени AiTest на имя твоего модуля
+@testable import AiTest 
 
 final class PersistenceControllerTests: XCTestCase {
     var persistence: PersistenceController!
 
     override func setUp() {
         super.setUp()
-        persistence = PersistenceController(inMemory: true) // in-memory для изоляции тестов
+        persistence = PersistenceController(inMemory: true) // in-memory for test
     }
 
     override func tearDown() {
@@ -18,7 +18,7 @@ final class PersistenceControllerTests: XCTestCase {
     func testSaveAndFetch() throws {
         let context = persistence.context
         
-        // Создаем тестовую сессию
+        // Create test session
         let session = SessionEntity(context: context)
         session.id = UUID().uuidString
         session.title = "Test Session"
@@ -26,7 +26,7 @@ final class PersistenceControllerTests: XCTestCase {
         session.category = "test"
         session.summary = "Testing save"
         
-        // Сохраняем в контекст
+        // Save
         persistence.save()
         
         // Фетчим сессии из Core Data
