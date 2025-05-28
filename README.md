@@ -43,11 +43,11 @@ Run tests in Xcode using `⌘+U`.
 
 ## Project Structure
 
-├── Models/               // Data models (SessionModel, MessageModel)
-├── ViewModels/           // ViewModels (ChatViewModel, SessionsListViewModel)
-├── Views/                // SwiftUI Views
-├── Resources/            // Mock JSON files
-├── Tests/                // Unit tests
+Models - Data models (SessionModel, MessageModel)
+ViewModels - ViewModels (ChatViewModel, SessionsListViewModel)
+Views - SwiftUI Views
+Resources - Mock JSON files
+Tests - Unit tests
 
 ## Additional Info 
 
