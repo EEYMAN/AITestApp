@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "date": "2024-05-20T10:00:00Z",
+    "title": "Career advice",
+    "category": "career",
+    "summary": "Discussing career development."
+  },
+  {
+    "id": "2",
+    "date": "2024-05-21T11:30:00Z",
+    "title": "Managing emotions",
+    "category": "emotions",
+    "summary": "How to handle stress."
+  },
+  {
+    "id": "3",
+    "date": "2024-05-27T09:15:00Z",
+    "title": "Productivity hacks",
+    "category": "productivity",
+    "summary": "Tips for better time management."
+  }
+]
