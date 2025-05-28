@@ -1,0 +1,2 @@
+# AITestApp
+For COPYMIND team
